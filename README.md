@@ -1,24 +1,17 @@
-# README
+# Devise Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Implementing Devise gem for user authentication
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+```
+git clone https://github.com/JonathanWThom/devise-practice
+cd devise-practice
+rake db:create
+rails db:migrate
+rails s
+```
 
-* System dependencies
+## License
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT
